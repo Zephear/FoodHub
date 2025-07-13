@@ -1,0 +1,599 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vladysalv Dovhyi" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/Style.css" media="screen" />
+
+    <title>FoodHub</title>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        
+        <header>
+            <div class="header">
+                
+                <div class="hat">
+                    <svg width="60px" height="800px" viewBox="0 0 960 960" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M462.845 238.751C608.272 59.0617 868.192 314.774 663.067 453.832C704.924 520.181 781.81 677.054 694.09 733.093C607.167 785.186 506.403 830.604 403.146 821.158C325 812.109 321.856 723.932 308.217 662.877C300.22 625.03 295.954 586.416 287.25 548.769C101.408 587.657 76.9909 377.001 234.728 318.38C236.769 317.745 239.062 315.442 239.781 313.401C267.643 220.718 384.616 186.295 462.845 238.751ZM288.796 311.268C312.331 311.029 390.539 332.934 366.868 366.925C361.173 373.897 351.777 376.023 343.019 372.185C282.31 334.175 201.202 363.569 180.421 432.023C152.495 530.688 311.819 522.314 341.27 453.293C354.047 427.784 392.436 439.692 385.994 468.051C376.461 494.977 354.36 515.11 330.526 529.819C322.398 534.748 329.879 547.678 330.453 555.267C342.772 605.319 352.184 656.015 362.368 706.535C363.437 711.951 365.394 714.056 371.314 714.092C476.267 715.393 582.157 686.679 665.139 620.318C682.074 606.506 682.382 606.778 676.05 585.874C669.037 562.72 661.5 539.321 645.279 521.079C634.337 508.774 627.466 494.672 619.605 480.831C617.704 475.995 615.641 473.912 610.004 475.559C584.884 481.766 559.344 481.874 533.839 478.799C503.39 475.193 506.238 431.905 537.379 432.277C630.447 449.229 729.016 368.391 677.307 276.05C642.017 220.903 552.954 200.795 501.027 260.169C486.978 270.728 527.809 295.239 521.637 350.894C520.631 364.004 510.23 373.559 498.196 373.485C483.931 373.68 473.486 359.363 474.587 344.811C470.776 252.698 328.94 231.236 288.796 311.268ZM684.879 638.7C591.409 707.765 486.884 739.793 371.296 739.368C398.406 826.971 571.138 744.162 626.436 719.785C658.685 704.126 690.885 679.298 684.879 638.7Z"
+                            fill="#000000" />
+                        <path
+                            d="M99.5719 757.195C73.8529 757.242 68.6569 729.975 85.2559 716.192C117.465 690.775 145.362 658.216 182.179 639.502C200.43 630.953 217.2 652.783 205.874 668.819C180.098 698.678 146.377 721.205 117.498 748.097C111.428 753.336 105.009 757.417 99.5719 757.195Z"
+                            fill="#000000" />
+                        <path
+                            d="M907.398 446.191C906.987 453.105 902.253 459.639 894.58 463.911C862.054 482.021 829.522 500.127 796.803 517.885C782.966 525.395 771.698 523.523 765.623 513.784C754.02 496.642 779.704 479.261 794.467 471.224C819.303 456.327 844.135 441.412 869.252 426.999C885.474 416.421 908.413 422.681 907.398 446.191Z"
+                            fill="#000000" />
+                        <path
+                            d="M359.597 150.197C359.69 161.116 354.812 168.556 346.897 171.389C338.937 174.238 330.015 171.911 324.464 165.115C307.245 136.189 294.732 104.402 279.444 74.3576C264.783 46.1146 304.559 25.1176 318.492 54.1146C332.119 85.8096 349.112 117.53 359.597 150.197Z"
+                            fill="#000000" />
+                        <path
+                            d="M871.006 775.347C870.901 797.017 845.223 801.927 830.057 789.629C817.515 782.723 804.977 775.808 792.524 768.742C781.64 763.583 772.183 753.015 777.495 740.412C780.346 732.76 787.793 727.68 796.351 728.116C819.265 731.488 838.859 746.885 859.808 756.174C867.393 760.174 871.034 767.422 871.006 775.347Z"
+                            fill="#000000" />
+                        <path
+                            d="M734.891 192.242C689.425 186.564 729.513 140.188 740.813 119.716C757.112 95.5671 793.141 119.582 777.277 144.12C767.279 156.921 751.399 192.109 734.891 192.242Z"
+                            fill="#000000" />
+                        <path
+                            d="M328.049 919.198C310.014 919.008 299.148 902.379 306.568 887.487C311.809 876.969 318.982 867.236 326.383 858.029C332.323 850.639 341.939 849.477 349.567 853.292C357.393 857.206 362.558 866.125 359.623 875.324C355.83 887.211 350.574 898.765 344.715 909.808C341.144 916.537 333.862 919.195 328.049 919.198Z"
+                            fill="#000000" />
+                        <path
+                            d="M95.6653 353.486C85.8563 352.297 73.5083 347.107 62.0593 340.351C52.8403 334.911 50.1533 323.234 54.2593 314.004C66.3913 287.797 95.5173 308.074 112.676 317.575C131.644 330.888 121.348 356.419 95.6653 353.486Z"
+                            fill="#000000" />
+                        <path
+                            d="M288.794 311.265C328.944 231.254 470.772 252.672 474.586 344.809C473.47 359.384 483.942 373.653 498.194 373.48C510.228 373.555 520.629 364 521.637 350.889C527.793 294.788 487.029 271.312 501.022 260.166C552.95 200.791 642.014 220.899 677.306 276.05C728.878 368.554 630.622 449.123 537.373 432.269C506.163 431.905 503.458 475.211 533.837 478.796C559.341 481.871 584.88 481.763 610.001 475.555C615.525 473.886 617.827 476.019 619.6 480.828C627.462 494.668 634.333 508.771 645.275 521.076C661.497 539.318 669.033 562.717 676.046 585.871C682.378 606.775 682.069 606.503 665.134 620.313C582.167 686.682 476.251 715.387 371.31 714.09C365.389 714.053 363.432 711.948 362.363 706.532C351.712 649.227 338.509 592.394 326.628 535.398C326.431 533.671 328.685 530.912 330.522 529.815C354.344 515.119 376.465 494.967 385.991 468.048C392.47 439.665 353.972 427.814 341.27 453.294C311.837 522.311 152.461 530.68 180.411 432.015C201.22 363.581 282.277 334.151 343.017 372.185C351.774 376.02 361.168 373.894 366.863 366.921C390.517 333.054 312.611 311.051 288.794 311.265Z"
+                            fill="white" />
+                        <path
+                            d="M684.88 638.699C690.86 679.309 658.709 704.115 626.435 719.779C571.164 744.104 398.557 827.017 371.297 739.367C486.885 739.792 591.41 707.764 684.88 638.699Z"
+                            fill="white" />
+                    </svg>
+                </div>
+
+                <div class="head_text">
+                    <h1>FoodHub</h1>
+                </div>
+                
+                
+                <div class="googleButton">
+                    <div id="g_id_onload"
+                        data-client_id="1040907518125-fua8d7iod457c5i48aagp1rlbiqvgdrv.apps.googleusercontent.com"
+                        data-context="signin"
+                        data-ux_mode="popup"
+                        data-callback="handleCredentialResponse"
+                        data-auto_prompt="false">
+                    </div>
+                
+                    <div class="g_id_signin"
+                        data-type="icon"
+                        data-shape="circle"
+                        data-theme="filled_black"
+                        data-text="signin"
+                        data-size="large">
+                    </div>
+                </div>
+                
+                <div class="menu">
+                    <button id="menuTitle">Menu</button>
+                
+                    <nav id="menuIts" class="menu mnHide">
+                        <div class="menu_opt">
+                            <a href="#welcome">FoodHub</a>
+                            <a href="#articles">Articles</a>
+                            <a href="#opinions">All responses</a>
+                            <a href="#addOpinion">Add comment</a>
+                            <a href="#artInsert">Add Article</a>
+                        </div>
+                    </nav>
+                </div>
+                
+               
+                <button id="logoutButton" class="logoutButton hiddenElm">Log Out</button>
+                
+                
+                <div class="sidebar-ad">
+                    <p>Your AD</p>
+                </div>
+            </div>
+        </header>
+
+        <main id="router-view">
+
+        </main>
+
+        <footer>
+            <div class="line_between"></div>
+            <div class="footer">
+                <h3>About me:</h3>
+                <p>I am Vladysalv Dovhyi and I want to share delicious recipes from different parts of the world to help
+                    people live a delicious life.</p>
+                <h3>Contacts:</h3>
+                <p>Email: zephyr@gmail.com</p>
+                <p>Phone number: +421 123 456 789</p>
+                <p>&copy; 2024 Your site about cuisines and recipes. All rights reserved.</p>
+            </div>
+        </footer>
+    <script id="template-welcome" type="text/template">
+    <article>
+        <div class="text1">
+            <h1>National cuisines and recipes</h1>
+        </div>
+         
+        <div class="second">
+            <h3>Welcome to the website dedicated to the traditional cuisines of the world!</h3>
+        </div>
+        <div class="intro">
+            <p>
+                Cooking is not just a process; it is a true part of culture that unites generations and nations. The culinary traditions of different countries are a journey into a world of aromas, spices, and unique recipes that are passed down through generations.
+            </p>
+            <p>In our culinary journey, you will explore the richness of Georgian cuisine, where every dish, from khinkali to chanakhi, transports you to the heart of the Caucasus. You will discover the exquisite dishes of Italian cuisine—pasta, pizza, and desserts that have become favorites worldwide. Let’s not forget the Mexican tacos, which impress with their rich flavors and vibrant colors, as well as Japanese sushi that captivates with its simplicity and harmony.
+            </p>
+            <p>
+                On our website, you will find not only interesting facts about these national cuisines but also a plethora of delicious recipes that will allow you to recreate these gastronomic masterpieces at home. Discover the culinary treasures of these countries and expand your culinary horizons!
+            </p>
+        </div>
+    </article>
+    <div class="third_text">
+        <div class="line_between"></div>
+        <h2>What you will find on this site?</h2>
+        <ol>
+            <li>Find delicious recipes for national dishes from the following countries:
+                <ul>
+                    <li>Georgia</li>
+                    <li>Italy</li>
+                    <li>Mexico</li>
+                    <li>Japan</li>
+                </ul>
+            </li>
+            <li>Learn new culinary techniques and tricks.</li>
+            <li>Discover interesting facts about ingredients and dishes.</li>
+            <li>Get inspired to cook new dishes.</li>
+        </ol>
+        <p>This website will help you broaden your culinary horizons and create delicious meals at home!</p>
+    </div>
+    <div class="line_between"></div>
+    <article  id="artPine">
+        <div class="text_pho">
+            <div class="text1">
+                <h1>Short story about cuisines</h1>
+            </div>
+            <div class="photoes">
+                <div class="Georgian">
+                    <img src="/fig/MainGeo_max.jpg" alt="Georgian food" 
+                        srcset="/fig/MainGeo_min.jpg 300w,/fig/MainGeo_mid.jpg 600w,/fig/MainGeo_max.jpg 1200w" 
+                        sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                    <div>Georgian</div>
+                </div>
+                <div class="Italian">
+                    <img src="/fig//MainIta_max.jpg" alt="Italian food"
+                        srcset="/fig/MainIta_min.jpg 300w, /fig/MainIta_mid.jpg 600w ,/fig/MainIta_max.jpg 1200w" 
+                        sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                    <div>Italian</div>
+                </div>
+                <div class="Mexican">
+                    <img src ="/fig/MainMexi_max.jpg" alt="Mexican food"
+                        srcset="/fig/MainMexi_min.jpg 300w, /fig/MainMexi_mid.jpg 600w ,/fig/MainMexi_max.jpg 1200w" 
+                        sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                    <div>Mexican</div>
+                </div>
+                <div class="Japanese">
+                    <img src="/fig/MainJepe_max.jpg" alt="Italian food"
+                        srcset="/fig/MainJepe_min.jpg 300w, /fig/MainJepe_mid.jpg 600w ,/fig/MainJepe_max.jpg 1200w" 
+                        sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                    <div>Japanese</div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="description">
+            <div class="line_between"></div>
+            <div class="chef-container">
+                <div class="third_text">
+                    <h2>Short story about cuisines</h2>
+                </div>
+                <div class="chef">
+                    <img src="/fig/chef.png" alt="Chef Image">
+            </div>
+        </div>
+    
+            <div class="line_G"> 
+                <h3>Georgian Cuisine</h3>
+                <div class="content_G">
+                    <p>
+                        Explore the warm and hearty flavors of Georgia, where every dish tells a story of ancient traditions and community. With iconic dishes like khachapuri, khinkali, and a variety of richly spiced stews, Georgian cuisine offers a feast for both the senses and the soul. Georgian hospitality is famous worldwide, and its cuisine reflects the diversity of its culture. 
+                    </p>
+                    <img src="/fig/MainCha_max.jpeg" alt=""
+                    srcset="/fig/MainCha_min.jpg 300w, /fig/MainCha_mid.jpg 600w, /fig/MainCha_max.jpeg 1200w" 
+                    sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                </div>    
+            </div>
+    
+            <div class="line_I">
+                <h3>Italian Cuisine</h3>
+                <div class="content_I">
+                    <p>
+                        Italy, the land of pasta and pizza, has influenced global cuisine like no other. From the rich, creamy carbonara to the famous Neapolitan pizza, every bite transports you to the sun-soaked countryside of Tuscany or the vibrant streets of Rome. Discover how simple ingredients, like olive oil, fresh tomatoes, and basil, can create extraordinary meals.
+                    </p>
+                    <img src="/fig/MainKarb_max.jpg" alt=""
+                    srcset="/fig/MainKarb_min.jpg 300w, /fig/MainKarb_mid.jpg 600w , /fig/MainKarb_max.jpg 1200w" 
+                    sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                    
+                </div>
+            </div>
+    
+            <div class="line_M">
+                <h3>Mexican Cuisine</h3>
+                <div class="content_M">
+                    <p>
+                        A fiesta of flavors! Mexican food is bold, colorful, and rich in history. From tacos al pastor to enchiladas and guacamole, Mexican dishes are a blend of indigenous and Spanish influences that create vibrant and spicy meals. Don't miss out on the country's world-famous mole sauces or the refreshing margaritas.
+                    </p>
+                    <img src="/fig/MainBuri_max.jpg" alt=""
+                    srcset="/fig/MainBuri_min.jpg 300w, /fig/MainBuri_mid.jpg 600w, /fig/MainBuri_max.jpg 1200w" 
+                    sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+    
+                </div>
+            </div>
+    
+            <div class="line_J">
+                <h3>Japanese Cuisine</h3>
+                <div class="content_J">
+                    <p>
+                        Japanese cuisine is a perfect balance of simplicity and beauty, where even the presentation of the food is an art form. Dishes like sushi, tempura, and ramen have won over hearts worldwide with their clean flavors and meticulous preparation. Dive into the philosophy behind kaiseki dining, where every course is carefully chosen to reflect the season and delight the senses.
+                    </p>
+                    <img src="/fig/MainSushi_max.jpg" alt=""
+                    srcset="/fig/MainSushi_min.jpg 300w, /fig/MainSushi_mid.jpg 600w, /fig/MainSushi_max.jpg 1200w" 
+                    sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px" >
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="line_between"></div>
+
+    <div class = " main_table">
+        <table>
+            <caption>Interesting Facts About Dishes</caption>
+            <thead>
+              <tr>
+                <th>COUNTRY</th>
+                <th>DISH</th>
+                <th>MAIN INGRADIENT</th>
+                <th>INTERESTING FACTS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">ITALY</td>
+                <td>Carbonara</td>
+                <td>Pasta, eggs, pancetta</td>
+                <td>Real Carbonara is made without cream!</td>
+              </tr>
+              <tr>
+                <td colspan="3">It is believed to have been created by Roman charcoal workers in the mountains.</td>
+              </tr>
+              <tr>
+                <td>GEORGIA</td>
+                <td>Khachapuri</td>
+                <td>Cheese, dough, egg</td>
+                <td>The name "Khachapuri" translates as "bread with cheese".</td>
+              </tr>
+              <tr>
+                <td>MEXICO</td>
+                <td>Burrito</td>
+                <td>Tortilla, meat, vegetables</td>
+                <td>The name "Burrito" means "little donkey".</td>
+              </tr>
+              <tr>
+                <td>JAPAN</td>
+                <td>Sushi</td>
+                <td>Rice, fish, seaweed</td>
+                <td>Sushi originally emerged as a way to preserve fish in rice.</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4">These dishes have centuries-old history and unique traditions.</td>
+              </tr>
+            </tfoot>
+          </table>
+        <img class = "ChefTableHead" src="/fig/chef2.png" alt="">
+    </div>
+</article>
+</script>
+
+
+<script id="template-articles" type="text/template">
+    <div class="text1">
+        <h1>Articles</h1>
+    </div>
+    {{#articles}}
+    <div class="article_box">
+        <article>
+            <h2><a href="{{detailLink}}" class="article-title">{{title}}</a></h2>
+            <p>by {{author}}</p>
+            <img src="{{imageLink}}" alt="Article Image" style="max-width: 200px;">
+            <p>{{content}}</p>
+            <p><strong>Tags:</strong> {{tags}}</p>
+        </article>
+    </div>
+    {{/articles}}
+    <footer>
+        <div class="pagination">
+            {{#hasPrevious}}
+            <a href="#articles/{{previousPage}}/{{totalCount}}" class="linkAsButton">Previous</a>
+            {{/hasPrevious}}
+            {{#hasNext}}
+            <a href="#articles/{{nextPage}}/{{totalCount}}" class="linkAsButton">Next</a>
+            {{/hasNext}}
+        </div>
+        <a href="#menuTitle" class="linkAsButton">Back to the menu</a>
+    </footer>
+</script>
+
+
+
+    <script id="template-article-comments" type="text/template">
+    <div class = "text1">
+        <h3 class="article-title">{{title}}</h3>
+    </div>
+
+    <div class="article-container">
+        
+        <p class="article-author">by {{author}}</p>
+        {{#imageLink}}
+        <figure class="article-image">
+            <img src="{{imageLink}}" alt="article image">
+        </figure>
+        {{/imageLink}}
+        <div class="article-content">{{{content}}}</div>
+        <p class="article-tags">Keywords: {{tags}}</p>
+    </div>
+    
+    <footer class="article-footer">
+        <a href="{{backLink}}" class="linkAsButton"><< Back</a>
+        <a href="{{editLink}}" class="linkAsButton">Edit</a>
+        <a href="{{deleteLink}}" class="linkAsButton">Delete</a>
+    </footer>
+    
+    <section class="comments-section">
+       
+            <div class = "text1">
+                Comments
+            </div>
+        
+        {{#comments}}
+        <div class="response">
+            <p><strong>{{author}}</strong> ({{created}}):</p>
+            <p>{{content}}</p>
+        </div>
+        {{/comments}}
+
+        <button id="toggleCommentForm" class="linkAsButton">Add a Comment</button>
+        
+        <form id="commentForm" class="form-container hidden">
+            <div class="form-group">
+                <label for="commentAuthor">Name:</label>
+                <input type="text" id="commentAuthor" name="commentAuthor" required>
+            </div>
+            <div class="form-group">
+                <label for="commentEmail">Email:</label>
+                <input type="email" id="commentEmail" name="commentEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="commentContent">Comment:</label>
+                <textarea id="commentContent" name="commentContent" required></textarea>
+            </div>
+            <button type="submit" class="form-button">Submit</button>
+        </form>
+    </section>
+</script>
+
+    <script id="template-opinions" type="text/template">
+    <article  id="artOpinions">
+        <div class="text1">
+            <h1>Visitors Opinions</h1>
+        </div>
+        <div id="opinionsContainer" class="coment">
+            
+            
+    {{#.}}
+    <section>
+        <h3>{{name}} <i>{{created}}</i></h3>
+        <p>{{comment}}</p>
+        <p><strong>Feedback Type:</strong> {{feedbackType}}</p>
+        <p><strong>Keywords:</strong> {{keywords}}</p>
+        <p>{{subscribe ? "Subscribed to updates." : "Not subscribed."}}</p>
+        <p>{{willReturn ? "I will return to this page." : "Sorry, one visit was enough."}}</p>
+        {{#email}}
+        <p><strong>Email:</strong> <a href="mailto:{{email}}">{{email}}</a></p>
+        {{/email}}
+        {{#imageUrl}}
+        <p><strong>Shared Image:</strong></p>
+        <img src="{{imageUrl}}" alt="User-provided image" style="max-width: 200px; max-height: 200px;">
+        {{/imageUrl}}
+    </section>
+    {{/.}}
+    {{^.}}
+    <section>
+        Sorry, no opinions found.
+    </section>
+    {{/.}}
+        </div>
+        
+        <footer  class="menuLink"><a href="#welcome" class="linkAsButton">Back to the menu</a></footer>
+    </article>
+</script>
+
+    <script id="template-addOpinion" type="text/template">
+        <article id="artOpnFrm">
+            <h2>Your Opinion</h2>
+            <div class = text1>
+                <h1>Please, use the form below to state your opinion about this page.</h1>
+            </div>
+            
+        <div class="response">
+            <form id="opnFrm">
+                <div>
+                    <label for="nameElm">Your name:</label>
+                    <input type="text" name="login" id="nameElm" size="20" maxlength="50" placeholder="Enter your name here" required />
+                </div>
+                <div>
+                    <label for="emailElm">Your email:</label>
+                    <input type="email" id="emailElm" name="email" placeholder="Enter your email here" required />
+                </div>
+                <div>
+                    <label for="imageUrlElm">Image URL (optional):</label>
+                    <input type="url" id="imageUrlElm" name="imageUrl" placeholder="Enter image URL" />
+                </div>
+                <h4>Your impressions:</h4>
+                <label><input type="radio" name="feedbackType" value="positive" required> Positive</label>
+                <label><input type="radio" name="feedbackType" value="neutral" required> Neutral</label>
+                <label><input type="radio" name="feedbackType" value="negative" required> Negative</label>
+                <div>
+                    <div class="checkbox-container">
+                        <label for="subscribeElm">
+                            <p>Subscribe to updates</p>
+                            <input type="checkbox" id="subscribeElm" name="subscribe">
+                        </label>
+                        <label for="willReturnElm">
+                            <p>Will return to this page</p>
+                            <input type="checkbox" id="willReturnElm" name="willReturn">
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="opnElm"><h4>Your opinion:</h4></label>
+                    <textarea name="comment" id="opnElm" cols="50" rows="3" placeholder="Express your opinion here" required></textarea>
+                </div>
+                <div>
+                    <label for="keywordsElm">Keywords:</label>
+                    <input type="text" id="keywordsElm" name="keywords" list="suggestedKeywords" placeholder="Enter keywords" />
+                    <datalist id="suggestedKeywords">
+                        <option value="Georgian Cuisine">
+                        <option value="Italian Cuisine">
+                        <option value="Mexican Cuisine">
+                        <option value="Japanese Cuisine">
+                        <option value="Chachapuri">
+                        <option value="Carbonara">
+                        <option value="Buritto">
+                        <option value="Sushi">
+                    </datalist>
+                </div>
+                <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </p>
+
+            </form>
+        </div>
+            <footer class="menuLink"><a href="#welcome" class="linkAsButton">Back to the menu</a></footer>
+        </article>
+</script>
+
+    <script id="template-article" type="text/template">
+    <div class = "text1">
+        <h3 class="article-title">{{title}}</h3>
+    </div>
+    
+    <article class="article-container">
+        
+        <p class="article-author">by {{author}}</p>
+        {{#imageLink}}
+        <figure class="article-image">
+            <img src="{{imageLink}}" alt="article figure" />
+        </figure>
+        {{/imageLink}}
+        <div class="article-content">{{{content}}}</div>
+        <p class="article-tags">Keywords: {{tags}}</p>
+    </article>
+    <footer class="article-footer">
+        <a href="{{backLink}}" class="linkAsButton"><< Back</a>
+        <a href="{{editLink}}" class="linkAsButton">Edit</a>
+        <a href="{{deleteLink}}" class="linkAsButton">Delete</a>
+        <a href="#menuTitle" class="linkAsButton">Up to the menu</a>
+    </footer>
+</script>
+
+    <script id="template-article-form" type="text/template">
+    <div class = "text1">
+        <h2>{{formTitle}}</h2>
+    </div>
+    <div class="form-container">
+        <form id="articleForm">
+            <div class="form-group">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" value="{{author}}" required />
+            </div>
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" value="{{title}}" required />
+            </div>
+            <div class="form-group">
+                <label for="imageLink">Image URL:</label>
+                <input type="url" id="imageLink" name="imageLink" value="{{imageLink}}" />
+            </div>
+            <div class="form-group">
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required>{{content}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="tags">Tags:</label>
+                <input type="text" id="tags" name="tags" value="{{tags}}" />
+            </div>
+            <div class="form-actions">
+                <button type="reset">Reset</button>
+                <button type="submit">{{submitBtTitle}}</button>
+            </div>
+        </form>
+        <a href="{{backLink}}" class="linkAsButton">Back</a>
+        
+    </div>
+</script>
+    <script type="module" src="js/index.js"></script>
+    <script src="js/addOpinion.js"></script>
+    <script src="js/articleFormsHandler.js"></script>
+    <script src="https://accounts.google.com/gsi/client"> </script>
+    
+    
+    <script>
+        function handleCredentialResponse(response) {
+            const data = parseJwt(response.credential);
+            
+            const userFirstName = data.given_name || "N/A";
+            const userLastName = data.family_name || "N/A";
+            const userEmail = data.email || "N/A";
+    
+            // Зберігаємо інформацію в localStorage
+            localStorage.setItem("userFirstName", userFirstName);
+            localStorage.setItem("userLastName", userLastName);
+            localStorage.setItem("userEmail", userEmail);
+    
+            console.log("User logged in:", {
+                firstName: userFirstName,
+                lastName: userLastName,
+                email: userEmail
+            });
+        }
+    
+        // Функція для декодування JWT
+        function parseJwt(token) {
+            const base64Url = token.split('.')[1];
+            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            const jsonPayload = decodeURIComponent(
+                atob(base64)
+                    .split('')
+                    .map(c => `%${('00' + c.charCodeAt(0).toString(16)).slice(-2)}`)
+                    .join('')
+            );
+            return JSON.parse(jsonPayload);
+        }
+    </script>
+    
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    
+</div>    
+</body>
+
+</html>
